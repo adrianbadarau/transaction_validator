@@ -6,6 +6,6 @@ import java.util.List;
 
 @Data
 public class ValidationResponse {
-    private List<Transaction> failedItems;
+    private List<TransactionDTO> failedItems;
     private boolean success;
 }

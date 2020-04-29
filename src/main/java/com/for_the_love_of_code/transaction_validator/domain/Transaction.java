@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class Transaction {
     @CsvBindByName(column = "Reference")
-    private Integer reference;
+    private String reference;
     @CsvBindByName(column = "Account Number")
     private String accountNumber;
     @CsvBindByName(column = "Description")
